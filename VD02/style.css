@@ -1,1 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
 
+}
+
+.card1 {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #0000001A; /* Преобразованный цвет тени */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card1:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+.card1 img {
+    width: 200px;
+    height: 200px; /* Фиксированная высота */
+    object-fit: cover; /* Сохранение пропорций изображения */
+    border-radius: 50%;
+}
+
+.card1 h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.card1 p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.card2 {
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    height: 480px;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 40px;
+    border: 1px solid #bbb; /* Измененный цвет границы */
+    box-shadow: 0 0 10px #8888881A; /* Измененный цвет тени */
+    background-color: #e0e0e0; /* Измененный цвет фона */
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.card2:hover {
+    transform: scale(1.05);
+    background-color: #d0d0d0; /* Измененный цвет при наведении */
+}
+
+.card2 img {
+    width: 250px;
+    height: 250px; /* Фиксированная высота */
+    object-fit: cover; /* Сохранение пропорций изображения */
+    margin: 25px;
+    border-radius: 20px;
+}
+
+.card2 h1 {
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.card2 h3 {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.card2 p {
+    margin: 5px 0;
+    font-size: 0.9em;
+}
+
+.a:link {color: color: #0000FF}
+
+.a:visited {color: #800080;}
+
+.a:hover {color: #FF4500;}
+
+.a:active {color: #FF0000;}
